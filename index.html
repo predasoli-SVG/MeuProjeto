@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0d0d0d">
+
+    <title>BRAVO BARBER | Barbearia Premium — Corte Preciso, Estilo que Permanece</title>
+    <meta name="description" content="BRAVO BARBER — barbearia premium masculina. Cortes precisos, barba esculpida e atendimento personalizado em um ambiente sofisticado. Agende seu horário.">
+    <meta name="author" content="BRAVO BARBER">
+    <meta name="keywords" content="barbearia premium, corte masculino, barba, barbearia sofisticada, agendamento barbearia, BRAVO BARBER">
+    <link rel="canonical" href="https://www.bravobarber.example/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="BRAVO BARBER | Barbearia Premium">
+    <meta property="og:description" content="Corte preciso. Estilo que permanence. Experimente a experiência premium da BRAVO BARBER.">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://www.bravobarber.example/">
+    <meta property="og:image" content="https://images.pexels.com/photos/2014808/pexels-photo-2014808.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630&fit=crop">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="BRAVO BARBER | Barbearia Premium">
+    <meta name="twitter:description" content="Corte preciso. Estilo que permanence.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "BRAVO BARBER",
+        "description": "Barbearia premium masculina com cortes precisos, barba esculpida e atendimento personalizado.",
+        "image": "https://images.pexels.com/photos/2014808/pexels-photo-2014808.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "...",
+            "addressLocality": "São Paulo",
+            "addressRegion": "SP",
+            "postalCode": "....",
+            "addressCountry": "BR"
+        },
+        "telephone": "+55-11-9999-9999",
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+            "opens": "09:00",
+            "closes": "20:00"
+        }],
+        "priceRange": "$$"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ============ NAV ============ -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="BRAVO BARBER — Início">
+                <span class="nav-logo-bravo">BRAVO</span><span class="nav-logo-barber">BARBER</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu" aria-label="Navegação principal">
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#avaliacoes">Avaliações</a>
+                <a href="#localizacao">Localização</a>
+                <a href="#hero" class="nav-cta">Agendar</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+            <p class="hero-tag reveal" data-reveal="up">Premium Barber Shop</p>
+            <h1 class="hero-title reveal" data-reveal="up" data-delay="100">BRAVO BARBER</h1>
+            <h2 class="hero-headline reveal" data-reveal="up" data-delay="200">Corte preciso.<br>Estilo que permanence.</h2>
+            <p class="hero-text reveal" data-reveal="up" data-delay="300">
+                Mais que um corte — uma experiência. Ambiente sofisticado,
+                atendimento personalizado e mestres barbeiros dedicados a cada detalhe.
+            </p>
+            <div class="hero-buttons reveal" data-reveal="up" data-delay="400">
+                <a href="#localizacao" class="btn btn-primary">Agendar Horário</a>
+                <a href="#servicos" class="btn btn-secondary">Conhecer Serviços</a>
+            </div>
+            <div class="hero-scroll reveal" data-reveal="fade" data-delay="600" aria-hidden="true">
+                <span>scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVIÇOS ============ -->
+    <section class="servicos section" id="servicos">
+        <div class="container">
+            <div class="section-header reveal" data-reveal="up">
+                <span class="section-label">01 — Serviços</span>
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-desc">Cada serviço executado com precisão técnica e atenção a cada detalhe.</p>
+            </div>
+
+            <div class="servicos-grid">
+                <article class="service-card reveal" data-reveal="up" data-delay="0">
+                    <div class="service-number">01</div>
+                    <h3 class="service-name">Corte Masculino</h3>
+                    <p class="service-desc">Corte personalizado com técnica moderna, finalização com produtos premium e acabamento de navalha.</p>
+                    <div class="service-footer">
+                        <span class="service-price">R$ 70<span>,00</span></span>
+                        <a href="#localizacao" class="service-link">Agendar →</a>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-reveal="up" data-delay="120">
+                    <div class="service-number">02</div>
+                    <h3 class="service-name">Barba</h3>
+                    <p class="service-desc">Modelagem completa com toalha quente, óleos essenciais e navalha. Toalha quente relaxante e finalização impecável.</p>
+                    <div class="service-footer">
+                        <span class="service-price">R$ 50<span>,00</span></span>
+                        <a href="#localizacao" class="service-link">Agendar →</a>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-reveal="up" data-delay="240">
+                    <div class="service-number">03</div>
+                    <h3 class="service-name">Corte + Barba</h3>
+                    <p class="service-desc">A experiência completa. Corte e barba em harmonia para um visual impecável dos pés à cabeça com finalização premium.</p>
+                    <div class="service-footer">
+                        <span class="service-price">R$ 110<span>,00</span></span>
+                        <a href="#localizacao" class="service-link">Agendar →</a>
+                    </div>
+                </article>
+
+                <article class="service-card reveal" data-reveal="up" data-delay="360">
+                    <div class="service-number">04</div>
+                    <h3 class="service-name">Corte Infantil</h3>
+                    <p class="service-desc">Cuidado especial para os pequenos cavalheiros, com paciência, carinho e um ambiente acolhedor.</p>
+                    <div class="service-footer">
+                        <span class="service-price">R$ 45<span>,00</span></span>
+                        <a href="#localizacao" class="service-link">Agendar →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section class="sobre section" id="sobre">
+        <div class="sobre-wrap">
+            <div class="sobre-img reveal" data-reveal="left">
+                <img src="https://images.pexels.com/photos/7781853/pexels-photo-7781853.jpeg?auto=compress&cs=tinysrgb&w=900&h=1100&fit=crop"
+                     alt="Interior escuro e sofisticado da barbearia BRAVO BARBER com cadeiras de couro e iluminação ambiente" loading="lazy" width="900" height="1100">
+            </div>
+            <div class="sobre-text reveal" data-reveal="right" data-delay="150">
+                <span class="section-label">02 — Sobre</span>
+                <h2 class="section-title">A BRAVO BARBER<br>Nascida da Paixão</h2>
+                <div class="sobre-paragraphs">
+                    <p>Há mais de uma década, a BRAVO BARBER nasceu de uma convicção simples: um corte não é apenas cortar cabelo — é esculpir identidade. Cada cliente que cruza nossa porta encontra mais que uma barbearia; encontra um ritual masculino de cuidados, dedicação e precisão.</p>
+                    <p>Nossos mestres barbeiros combinam técnica clássica com tendências contemporâneas, em um ambiente onde cada detalhe — da toalha quente ao café expresso — foi pensado para uma experiência completa.</p>
+                    <p>Acreditamos em atendimento personalizado. Aqui, ninguém é apenas mais um. Cada cabelo, cada barba, cada estilo recebe a atenção e o tempo que merece. É assim que construímos uma base de clientes leais e uma reputação sólida.</p>
+                </div>
+                <div class="sobre-stats">
+                    <div class="stat">
+                        <span class="stat-num">10+</span>
+                        <span class="stat-label">Anos de história</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">15K+</span>
+                        <span class="stat-label">Clientes atendidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">4.9</span>
+                        <span class="stat-label">Avaliação média</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section class="galeria section" id="galeria">
+        <div class="container">
+            <div class="section-header reveal" data-reveal="up">
+                <span class="section-label">03 — Galeria</span>
+                <h2 class="section-title">Ambiente & Cortes</h2>
+                <p class="section-desc">Um recorte da experiência BRAVO BARBER — do ambiente ao resultado.</p>
+            </div>
+
+            <div class="galeria-grid">
+                <div class="galeria-item galeria-item-lg reveal" data-reveal="up" data-delay="0">
+                    <img src="https://images.pexels.com/photos/9992819/pexels-photo-9992819.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop" alt="Barbeiro executando corte preciso em cliente com barba" loading="lazy" width="800" height="800">
+                    <div class="galeria-caption">Corte na navalha</div>
+                </div>
+                <div class="galeria-item reveal" data-reveal="up" data-delay="120">
+                    <img src="https://images.pexels.com/photos/9387375/pexels-photo-9387375.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop" alt="Detalhe de barba esculpida com navalha" loading="lazy" width="600" height="600">
+                    <div class="galeria-caption">Barba esculpida</div>
+                </div>
+                <div class="galeria-item reveal" data-reveal="up" data-delay="240">
+                    <img src="https://images.pexels.com/photos/7781844/pexels-photo-7781844.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop" alt="Ambiente interno da barbearia com iluminação ambiente" loading="lazy" width="600" height="600">
+                    <div class="galeria-caption">Ambiente</div>
+                </div>
+                <div class="galeria-item reveal" data-reveal="up" data-delay="360">
+                    <img src="https://images.pexels.com/photos/1319459/pexels-photo-1319459.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop" alt="Ferramentas de barbeiro organizadas com precisão" loading="lazy" width="600" height="600">
+                    <div class="galeria-caption">Estação premium</div>
+                </div>
+                <div class="galeria-item galeria-item-lg reveal" data-reveal="up" data-delay="480">
+                    <img src="https://images.pexels.com/photos/4625626/pexels-photo-4625626.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&fit=crop" alt="Cliente com corte finalizado e estilo moderno" loading="lazy" width="800" height="800">
+                    <div class="galeria-caption">Resultado final</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EQUIPE ============ -->
+    <section class="equipe section" id="equipe">
+        <div class="container">
+            <div class="section-header reveal" data-reveal="up">
+                <span class="section-label">04 — Equipe</span>
+                <h2 class="section-title">Nossos Mestres</h2>
+                <p class="section-desc">Artidores que transformam arte em estilo. Cada um com sua especialidade.</p>
+            </div>
+
+            <div class="equipe-grid">
+                <article class="barber-card reveal" data-reveal="up" data-delay="0">
+                    <div class="barber-photo">
+                        <img src="https://images.pexels.com/photos/6148101/pexels-photo-6148101.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&fit=crop" alt="Retrato do barbeiro Rafael Bravo" loading="lazy" width="600" height="750">
+                    </div>
+                    <div class="barber-info">
+                        <h3 class="barber-name">Rafael Bravo</h3>
+                        <span class="barber-role">Mestre Barbeiro & Fundador</span>
+                        <p class="barber-desc">Especialista em cortes clássicos com toque contemporâneo. Mais de 15 anos transformando cabelo em identidade.</p>
+                    </div>
+                </article>
+
+                <article class="barber-card reveal" data-reveal="up" data-delay="150">
+                    <div class="barber-photo">
+                        <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&fit=crop" alt="Retrato do barbeiro Diego Martins" loading="lazy" width="600" height="750">
+                    </div>
+                    <div class="barber-info">
+                        <h3 class="barber-name">Diego Martins</h3>
+                        <span class="barber-role">Especialista em Barba</span>
+                        <p class="barber-desc">Mestre da navalha. Modelagem e cuidado com barba é sua arte, da toalha quente ao acabamento final.</p>
+                    </div>
+                </article>
+
+                <article class="barber-card reveal" data-reveal="up" data-delay="300">
+                    <div class="barber-photo">
+                        <img src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=600&h=750&fit=crop" alt="Retrato do barbeiro Vinícius Costa" loading="lazy" width="600" height="750">
+                    </div>
+                    <div class="barber-info">
+                        <h3 class="barber-name">Vinícius Costa</h3>
+                        <span class="barber-role">Estilo & Tendências</span>
+                        <p class="barber-desc">Referência em cortes modernos, fade e texturização. Conecta a rua à polimento premium.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ AVALIAÇÕES ============ -->
+    <section class="avaliacoes section" id="avaliacoes">
+        <div class="container">
+            <div class="section-header reveal" data-reveal="up">
+                <span class="section-label">05 — Avaliações</span>
+                <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+                <p class="section-desc demonstrativa-tag">★ Avaliações demonstrativas — criadas para portfólio, não representam clientes reais.</p>
+            </div>
+
+            <div class="avaliacoes-grid">
+                <article class="review-card reveal" data-reveal="up" data-delay="0">
+                    <div class="review-stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="review-text">"Melhor barbearia que já frequentei. Ambiente impecável, atendimento de primeira e o corte saiu exatamente como eu queria. Virei cliente fiel."</blockquote>
+                    <div class="review-author">
+                        <span class="review-avatar">G</span>
+                        <div>
+                            <span class="review-name">Gabriel Andrade</span>
+                            <span class="review-meta">Cliente demonstrativo</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal="up" data-delay="150">
+                    <div class="review-stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="review-text">"A experiência completa. Café na recepção, conversa boa e um trabalho de barba que parece escultura. Recomendo demais."</blockquote>
+                    <div class="review-author">
+                        <span class="review-avatar">L</span>
+                        <div>
+                            <span class="review-name">Lucas Pereira</span>
+                            <span class="review-meta">Cliente demonstrativo</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card reveal" data-reveal="up" data-delay="300">
+                    <div class="review-stars" aria-label="5 estrelas">★★★★★</div>
+                    <blockquote class="review-text">"Mais que uma barbearia, um ritual. O Diego entendeu exatamente o estilo que eu buscava. Saí renovado, voltarei com certeza."</blockquote>
+                    <div class="review-author">
+                        <span class="review-avatar">T</span>
+                        <div>
+                            <span class="review-name">Thiago Mendes</span>
+                            <span class="review-meta">Cliente demonstrativo</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ LOCALIZAÇÃO ============ -->
+    <section class="localizacao section" id="localizacao">
+        <div class="container">
+            <div class="section-header reveal" data-reveal="up">
+                <span class="section-label">06 — Localização</span>
+                <h2 class="section-title">Onde Nos Encontrar</h2>
+                <p class="section-desc">Venha viver a experiência da sua barbearia de perto.</p>
+            </div>
+
+            <div class="localizacao-wrap">
+                <div class="localizacao-info reveal" data-reveal="left">
+                    <div class="info-item">
+                        <span class="info-label">Endereço</span>
+                        <p class="info-value">Rua ....<br>Consolação, São Paulo — SP<br>CEP ....</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Horário</span>
+                        <p class="info-value">Terça à Sexta — 09h às 20h<br>Sábado — 08h às 18h<br>Domingo & Segunda — Fechado</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Telefone</span>
+                        <p class="info-value">(11) 99999-9999</p>
+                    </div>
+                    <a href="https://wa.me/5511998765432?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20na%20BRAVO%20BARBER." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.83c0 4.55-3.7 8.24-8.25 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.28.19-.53.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.46-1.38-1.71-.14-.25-.02-.38.11-.5.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.46-.01-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/>
+                        </svg>
+                        Agendar pelo WhatsApp
+                    </a>
+                </div>
+
+                <div class="localizacao-map reveal" data-reveal="right" data-delay="150">
+                    <iframe
+                        title="Mapa da localização DA SUA BARBEARIA"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6700,-23.5600,-46.6500,-23.5450&layer=mapnik&marker=-23.5525,-46.6600"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta-final" id="cta">
+        <div class="cta-bg" aria-hidden="true"></div>
+        <div class="cta-overlay" aria-hidden="true"></div>
+        <div class="cta-content">
+            <h2 class="cta-title reveal" data-reveal="fade">Seu próximo corte<br>começa aqui.</h2>
+            <p class="cta-sub reveal" data-reveal="fade" data-delay="150">Agende agora e viva a experiência BRAVO BARBER.</p>
+            <a href="#localizacao" class="btn btn-primary btn-lg reveal" data-reveal="fade" data-delay="300">Agendar Horário</a>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="footer-logo"><span class="nav-logo-bravo">BRAVO</span><span class="nav-logo-barber">BARBER</span></span>
+                <p class="footer-tag">Corte preciso. Estilo que permanence.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#equipe">Equipe</a>
+                <a href="#avaliacoes">Avaliações</a>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <a href="https://wa.me/5511998765432" target="_blank" rel="noopener noreferrer">WhatsApp: (11) 99876-5432</a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">@bravobarber</a>
+                <p class="footer-address">Rua Augusta, 2580 — Sala 12<br>São Paulo — SP</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Horário</h4>
+                <p class="footer-hours">Ter–Sex: 09h às 20h<br>Sábado: 08h às 18h<br>Dom & Seg: Fechado</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 BRAVO BARBER — PROJETO DEMONSTRATIVO!. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
